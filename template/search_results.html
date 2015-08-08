@@ -67,7 +67,7 @@
 				<i class="row-icon-font icon-moon-default2<!-- IF searchresults.S_POST_ANNOUNCE --> icon-moon-voice2<!-- ENDIF --><!-- IF searchresults.S_TOPIC_GLOBAL --> icon-moon-podcast2<!-- ENDIF --><!-- IF searchresults.S_POST_STICKY --> icon-moon-pushpin2<!-- ENDIF --><!-- IF searchresults.S_HAS_POLL --> icon-moon-bars2<!-- ENDIF --><!-- IF searchresults.S_UNREAD_TOPIC --> text-info<!-- ELSE --> text-muted<!-- ENDIF -->" title="{searchresults.TOPIC_FOLDER_IMG_ALT}"></i>
 				<i class="row-icon-font-mini <!-- IF searchresults.S_LOCKED -->fa fa-lock forumview-lock<!-- ENDIF -->" title="{searchresults.TOPIC_ICON_IMG_ALT}"></i>
 				<!-- IF searchresults.S_UNREAD_TOPIC --><a href="{searchresults.U_NEWEST_POST}" title="{L_VIEW_FIRST_UNREAD}"><i class="fa fa-asterisk"></i></a> <!-- ENDIF -->
-				<a href="{searchresults.U_VIEW_TOPIC}" class="topictitle">{searchresults.TOPIC_TITLE}</a> <!-- IF searchresults.ATTACH_ICON_IMG --><i class="fa fa-paperclip fa-flip-horizontal" rel="tooltip" data-placement="top" data-original-title="{L_ATTACH_FORUM}"></i> <!-- ENDIF -->
+				<a href="{searchresults.U_VIEW_TOPIC}" class="topictitle">{searchresults.TOPIC_TITLE}</a> {searchresults.SOLVED_LINK} <!-- IF searchresults.ATTACH_ICON_IMG --><i class="fa fa-paperclip fa-flip-horizontal" rel="tooltip" data-placement="top" data-original-title="{L_ATTACH_FORUM}"></i> <!-- ENDIF -->
 				<!-- IF searchresults.S_TOPIC_UNAPPROVED or searchresults.S_POSTS_UNAPPROVED --><a href="{searchresults.U_MCP_QUEUE}" title="{L_TOPICS_ROW_NOT_APPROVED}"><i class="fa fa-question-circle"></i></a> <!-- ENDIF -->
 				<!-- IF searchresults.S_TOPIC_REPORTED --><a href="{searchresults.U_MCP_REPORT}" title="{L_TOPICS_ROW_REPORTED}"><i class="fa fa-exclamation-circle text-danger"></i></a><!-- ENDIF --><br />
 				<!-- IF searchresults.PAGINATION --><strong class="pagination"><span>{searchresults.PAGINATION}</span></strong><!-- ENDIF -->
@@ -102,7 +102,7 @@
 		</div>
 	<!-- ELSE -->
 		<div class="pull-left">
-			<h4><a href="{searchresults.U_VIEW_POST}">{searchresults.POST_SUBJECT}</a> </h4>
+			<h4><a href="{searchresults.U_VIEW_POST}">{searchresults.POST_SUBJECT}</a> {searchresults.SOLVED_LINK} </h4>
 		<span class="text-muted"><i class="fa fa-user"></i> {L_POST_BY_AUTHOR} {searchresults.POST_AUTHOR_FULL} &#166; <i class="fa fa-clock-o"></i> {searchresults.POST_DATE} &#166;</span> 
 		<!-- IF searchresults.FORUM_TITLE -->
            <span class="text-muted"><i class="fa fa-folder"></i> {L_FORUM}: <a href="{searchresults.U_VIEW_FORUM}">{searchresults.FORUM_TITLE}</a> &#166; <i class="fa fa-folder-open"></i> {L_TOPIC}: <a href="{searchresults.U_VIEW_TOPIC}">{searchresults.TOPIC_TITLE}</a> &#166;</span> 

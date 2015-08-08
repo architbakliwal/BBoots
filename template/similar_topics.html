@@ -1,0 +1,39 @@
+<div class="clearfix">
+	<div class="panel panel-default">
+	<table class="footable table table-striped table-bordered table-white table-primary table-hover">
+		<thead>
+			<tr>
+			 <th data-class="expand"><i class="fa fa-bolt"></i> {L_SIMILAR_TOPICS}</th>
+			 <th class="large80" data-hide="phone"><i class="fa fa-bar-chart-o"></i> {L_TOPICS_POSTS_STATISTICS}</th>
+			 <th class="large20" data-hide="phone"><i class="fa fa-comments-alt"></i> {L_LAST_POST}</th>
+		    </tr>
+		</thead>
+		<tbody>
+	<!-- BEGIN similar -->
+		<tr>
+			<td>
+				<!-- IF similar.TOPIC_ICON_IMG and S_TOPIC_ICONS -->
+				<i class="topic-icon" style="background-image: url({T_ICONS_PATH}{similar.TOPIC_ICON_IMG}); background-repeat: no-repeat;" title="{similar.TOPIC_FOLDER_IMG_ALT}"></i>
+				<!-- ENDIF -->
+			    <i class="row-icon-font icon-moon-default2 <!-- IF similar.S_POST_ANNOUNCE -->icon-moon-voice2<!-- ENDIF --> <!-- IF similar.S_POST_GLOBAL -->icon-moon-podcast2<!-- ENDIF --> <!-- IF similar.S_POST_STICKY --> icon-moon-pushpin2<!-- ENDIF --> <!-- IF similar.S_HAS_POLL -->icon-moon-bars2<!-- ENDIF --> <!-- IF similar.S_TOPIC_MOVED -->icon-moon-moved<!-- ENDIF --> <!-- IF similar.S_UNREAD_TOPIC --> text-info<!-- ELSE --> text-muted<!-- ENDIF -->" title="{similar.TOPIC_FOLDER_IMG_ALT}"></i>
+				<i class="row-icon-font-mini <!-- IF similar.S_LOCKED -->fa fa-lock forumview-lock<!-- ENDIF -->" title="{similar.TOPIC_FOLDER_IMG_ALT}"></i>
+				<!-- IF similar.S_UNREAD_TOPIC --><a href="{similar.U_NEWEST_POST}" title="{L_VIEW_FIRST_UNREAD}"><i class="fa fa-asterisk"></i></a><!-- ENDIF --><a href="{similar.U_VIEW_TOPIC}" class="topictitle"> {similar.TOPIC_TITLE}</a>
+				<!-- IF similar.ATTACH_ICON_IMG --><i class="fa fa-paperclip fa-flip-horizontal" rel="tooltip" data-placement="top" data-original-title="{L_ATTACH_FORUM}"></i><!-- ENDIF -->
+			    <!-- IF similar.S_TOPIC_UNAPPROVED or similar.S_POSTS_UNAPPROVED --><a href="{similar.U_MCP_QUEUE}">{similar.UNAPPROVED_IMG}</a> <!-- ENDIF -->
+			    <!-- IF similar.S_TOPIC_REPORTED --><a href="{similar.U_MCP_REPORT}">{REPORTED_IMG}</a><!-- ENDIF --><br />
+			    <!-- IF similar.PAGINATION --><strong class="pagination"><span>{similar.PAGINATION}</span></strong><!-- ENDIF -->
+				<i class="fa fa-user"></i> {L_POST_BY_AUTHOR} {similar.TOPIC_AUTHOR_FULL} <i class="fa fa-clock-o"></i> {similar.FIRST_POST_TIME}
+				<i class="fa fa-comments"></i> {L_IN} <a href="{similar.U_VIEW_FORUM}"> {similar.FORUM_TITLE}</a>
+			</td>
+			<td class="center">{similar.TOPIC_REPLIES} {L_REPLIES}<br />{similar.TOPIC_VIEWS} {L_VIEWS}</td>	
+			<td class="center">
+				<i class="da da-user"></i> {L_POST_BY_AUTHOR} {similar.LAST_POST_AUTHOR_FULL}
+				<!-- IF not S_IS_BOT --><a rel="tooltip" data-placement="right" data-original-title="{L_FORUMLIST_LASTPOST}"  href="{similar.U_LAST_POST}"><i class="mobile-post fa fa-sign-out"></i></a><!-- ENDIF -->
+				<br /><i class="fa fa-clock-o"></i> <small>{similar.LAST_POST_TIME}</small>
+			</td>
+	    </tr>
+	<!-- END similar -->
+	    </tbody>
+	</table>
+</div>
+</div>

@@ -89,6 +89,13 @@
 							<!-- IF U_YIM or USER_YIM --><li><i class="fa fa-envelope"></i> {L_YIM}: <!-- IF U_YIM --><a href="{U_YIM}" onclick="popup(this.href, 780, 550); return false;">{L_SEND_YIM_MESSAGE}</a><!-- ELSE -->{USER_YIM}<!-- ENDIF --></li><!-- ENDIF -->
 							<!-- IF U_AIM or USER_AIM --><li><i class="fa fa-envelope"></i> {L_AIM}: <!-- IF U_AIM --><a href="{U_AIM}" onclick="popup(this.href, 550, 320); return false;">{L_SEND_AIM_MESSAGE}</a><!-- ELSE -->{USER_AIM}<!-- ENDIF --></li><!-- ENDIF -->
 							<!-- IF U_ICQ or USER_ICQ --><li><i class="fa fa-envelope"></i> {L_ICQ}: <!-- IF U_ICQ --><a href="{U_ICQ}" onclick="popup(this.href, 550, 320); return false;">{L_SEND_ICQ_MESSAGE}</a><!-- ELSE -->{USER_ICQ}<!-- ENDIF --></li><!-- ENDIF -->
+<!-- IF USER_TWITTER --><li><i class="fa fa-twitter"></i> {L_TWITTER}: <a href="https://twitter.com/{USER_TWITTER}" target="_blank">{USER_TWITTER}</a></li><!-- ENDIF -->
+		                    <!-- IF USER_GOOGLE_PLUS --><li><i class="fa fa-google-plus"></i> {L_GOOGLE_PLUS}: <a href="https://plus.google.com/{USER_GOOGLE_PLUS}" target="_blank">{L_GOOGLE_PLUS_PROFILE}</a></li><!-- ENDIF -->
+
+<!-- IF USER_FACEBOOK --><li><i class="fa fa-facebook"></i> {L_FACEBOOK}: <a href="https://facebook.com/{USER_FACEBOOK}" target="_blank">{USER_FACEBOOK}</a></li><!-- ENDIF -->
+<!-- IF USER_INSTAGRAM --><li><i class="fa fa-instagram"></i> {L_INSTAGRAM}: <a href="https://instagram.com/{USER_INSTAGRAM}" target="_blank">{USER_INSTAGRAM}</a></li><!-- ENDIF -->
+<!-- IF USER_GITHUB --><li><i class="fa fa-github"></i> {L_GITHUB}: <a href="https://github.com/{USER_GITHUB}" target="_blank">{USER_GITHUB}</a></li><!-- ENDIF -->
+<!-- IF USER_YOUTUBE --><li><i class="fa fa-youtube"></i> {L_YOUTUBE}: <a href="https://youtube.com/user/{USER_YOUTUBE}" target="_blank">{USER_YOUTUBE}</a></li><!-- ENDIF -->
 							<!-- IF U_JABBER and S_JABBER_ENABLED --><li><i class="fa fa-envelope"></i> {L_JABBER}: <a href="{U_JABBER}" onclick="popup(this.href, 550, 320); return false;">{L_SEND_JABBER_MESSAGE}</a></li><!-- ELSEIF USER_JABBER --><li><i class="icon-envelope"></i> {L_JABBER}: {USER_JABBER}</li><!-- ENDIF -->
 							<!-- IF S_PROFILE_FIELD1 -->
 								<!-- NOTE: Use a construct like this to include admin defined profile fields. Replace FIELD1 with the name of your field. -->
