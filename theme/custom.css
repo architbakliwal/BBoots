@@ -8,13 +8,276 @@
  * 
  * **************************************************************
  *****************************************************************/
+
 .topic-solved {
     display: inline-block;
     margin-top: 2px;
     vertical-align: top;
 }
- 
-  /* ===[ CSS HOOK TOP ]=== */
- 
- 
- /* ===[ CSS HOOK BOOTTOM ]=== */
+
+
+/* ===[ CSS HOOK TOP ]=== */
+
+.container {
+    padding-right: 0;
+    padding-left: 0;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+@media (min-width: 768px) {
+    .container {
+        width: 100%;
+    }
+}
+
+@media (min-width: 992px) {
+    .container {
+        width: 100%;
+    }
+}
+
+@media (min-width: 1200px) {
+    .container {
+        width: 100%;
+    }
+}
+
+.row {
+    margin-right: 0;
+}
+
+
+/* ===[ CSS HOOK BOOTTOM ]=== */
+
+
+/* BBOOTS / FLATBOOTS Custom Colors Generated With COLORIZE - www.sitesplat.com - copyright (c) 2014 SiteSplat.com */
+
+.logo span {
+    color: #000000;
+}
+
+.logo-transition a:after {
+    color: #000000;
+}
+
+.navBtn {
+    background-color: #000000;
+}
+
+.navBtn > a {
+    border-left: 1px solid #000000;
+}
+
+.submenu {
+    border-bottom: 4px solid #000000;
+}
+
+.nav-icon:hover [class*="has-sub"] {
+    color: #000000;
+}
+
+.submenu li:hover > a {
+    color: #000000;
+}
+
+.submenu li:hover > span {
+    background-color: #000000;
+}
+
+.subheader {
+    border-top: 4px solid #000000;
+}
+
+.side-segment h3:after,
+.side-segment h2:after {
+    background-color: #000000;
+}
+
+.alert-info {
+    background-color: #000000;
+    border-color: #000000;
+}
+
+.label-info,
+.badge-info {
+    background-color: #000000;
+}
+
+.progress-info.progress-striped .bar,
+.progress-striped .bar-info {
+    background-color: #000000;
+}
+
+#scrollbar-one .thumb .end,
+#scrollbar-two .thumb .end {
+    background-color: #000000;
+}
+
+#scrollbar-one .thumb,
+#scrollbar-two .thumb {
+    background-color: #000000;
+}
+
+.tabbable-custom .nav-tabs > li.active {
+    border-top: 3px solid #000000;
+}
+
+.ver-inline-menu li.active a,
+.ver-inline-menu li.active i {
+    background: none repeat scroll 0 0 #000000;
+    border-left: 1px solid #000000;
+}
+
+.ver-inline-menu li.active:after {
+    border-left: 6px solid #000000;
+}
+
+.ver-inline-menu li.active i {
+    background: none repeat scroll 0 0 #0d0d0d;
+}
+
+.table-primary thead th {
+    background-color: #000000;
+    border-color: #000000 !important;
+}
+
+a.forumtitle {
+    color: #000000;
+}
+
+.twitter-layout:before {
+    color: #000000;
+}
+
+footer .interact a:hover {
+    color: #000000;
+}
+
+footer {
+    border-top: 3px solid #000000;
+}
+
+footer .bottomLinks small a {
+    color: #000000;
+}
+
+footer .bottomLinks a:hover {
+    border-bottom: 1px solid #000000;
+}
+
+#footerContent blockquote p span {
+    color: #000000;
+}
+
+a.list-group-item.active,
+a.list-group-item.active:hover,
+a.list-group-item.active:focus {
+    background-color: #000000;
+    border-color: #000000;
+}
+
+.btn-link {
+    color: #000000;
+}
+
+.btn-link:hover,
+.btn-link:focus {
+    color: #000000;
+}
+
+.pager li > a:hover,
+.pager li > a:focus {
+    background-color: #000000;
+}
+
+
+/* BBOOTS - FLATBOOTS Main Links color */
+
+a {
+    color: #000000;
+}
+
+a:hover,
+a:focus {
+    color: #000000;
+}
+
+blockquote {
+    border-left-color: #000000;
+}
+
+blockquote.pull-right {
+    border-right-color: #000000;
+}
+
+.btn-primary {
+    color: #ffffff;
+    background-color: #000000;
+    border: 0;
+}
+
+.btn-primary:hover,
+.btn-primary:focus,
+.btn-primary:active,
+.btn-primary.active,
+.btn-primary.disabled,
+.btn-primary[disabled] {
+    color: #ffffff;
+    background-color: #555555;
+}
+
+.dropdown-menu > li > a:hover,
+.dropdown-menu > li > a:focus,
+.dropdown-submenu:hover > a,
+.dropdown-submenu:focus > a {
+    color: #000000;
+}
+
+.dropdown-menu > .active > a,
+.dropdown-menu > .active > a:hover,
+.dropdown-menu > .active > a:focus {
+    color: #000000;
+}
+
+.dropdown-submenu:hover > a:after {
+    border-left-color: #000000;
+}
+
+
+/* Button Backgrounds */
+
+
+/* FLATBOOTS Custom Color Generated with COLORIZE */
+
+
+/* FLATBOOTS Forum Panel Heading */
+
+.panel-forum > .panel-heading {
+    background-color: #000000;
+}
+
+
+/* FLATBOOTS Button Top */
+
+.top-flat {
+    background-color: #000000;
+}
+
+footer {
+    border-top: medium none;
+}
+
+
+/* FLATBOOTS Teaser Header Background color */
+
+.masthead:before {
+    background-color: #000000;
+}
+
+
+/* FLATBOOTS Footer Call to Action Background Color */
+
+.mastbottom {
+    background-color: #000000;
+}
