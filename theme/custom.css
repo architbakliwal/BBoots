@@ -54,15 +54,15 @@
 /* BBOOTS / FLATBOOTS Custom Colors Generated With COLORIZE - www.sitesplat.com - copyright (c) 2014 SiteSplat.com */
 
 .logo span {
-    color: #000000;
+    color: #222222;
 }
 
 .logo-transition a:after {
-    color: #000000;
+    color: #222222;
 }
 
 .navBtn {
-    background-color: #000000;
+    background-color: #222222;
 }
 
 .navBtn > a {
@@ -70,115 +70,115 @@
 }
 
 .submenu {
-    border-bottom: 4px solid #000000;
+    border-bottom: 4px solid #222222;
 }
 
 .nav-icon:hover [class*="has-sub"] {
-    color: #000000;
+    color: #222222;
 }
 
 .submenu li:hover > a {
-    color: #000000;
+    color: #222222;
 }
 
 .submenu li:hover > span {
-    background-color: #000000;
+    background-color: #222222;
 }
 
 .subheader {
-    border-top: 4px solid #000000;
+    border-top: 4px solid #222222;
 }
 
 .side-segment h3:after,
 .side-segment h2:after {
-    background-color: #000000;
+    background-color: #222222;
 }
 
 .alert-info {
-    background-color: #000000;
-    border-color: #000000;
+    background-color: #222222;
+    border-color: #222222;
 }
 
 .label-info,
 .badge-info {
-    background-color: #000000;
+    background-color: #222222;
 }
 
 .progress-info.progress-striped .bar,
 .progress-striped .bar-info {
-    background-color: #000000;
+    background-color: #222222;
 }
 
 #scrollbar-one .thumb .end,
 #scrollbar-two .thumb .end {
-    background-color: #000000;
+    background-color: #222222;
 }
 
 #scrollbar-one .thumb,
 #scrollbar-two .thumb {
-    background-color: #000000;
+    background-color: #222222;
 }
 
 .tabbable-custom .nav-tabs > li.active {
-    border-top: 3px solid #000000;
+    border-top: 3px solid #222222;
 }
 
 .ver-inline-menu li.active a,
 .ver-inline-menu li.active i {
-    background: none repeat scroll 0 0 #000000;
+    background: none repeat scroll 0 0 #222222;
     border-left: 1px solid #000000;
 }
 
 .ver-inline-menu li.active:after {
-    border-left: 6px solid #000000;
+    border-left: 6px solid #222222;
 }
 
 .ver-inline-menu li.active i {
-    background: none repeat scroll 0 0 #0d0d0d;
+    background: none repeat scroll 0 0 #2f2f2f;
 }
 
 .table-primary thead th {
-    background-color: #000000;
-    border-color: #000000 !important;
+    background-color: #222222;
+    border-color: #222222 !important;
 }
 
 a.forumtitle {
-    color: #000000;
+    color: #222222;
 }
 
 .twitter-layout:before {
-    color: #000000;
+    color: #222222;
 }
 
 footer .interact a:hover {
-    color: #000000;
+    color: #222222;
 }
 
 footer {
-    border-top: 3px solid #000000;
+    border-top: 3px solid #222222;
 }
 
 footer .bottomLinks small a {
-    color: #000000;
+    color: #222222;
 }
 
 footer .bottomLinks a:hover {
-    border-bottom: 1px solid #000000;
+    border-bottom: 1px solid #222222;
 }
 
 #footerContent blockquote p span {
-    color: #000000;
+    color: #222222;
 }
 
 a.list-group-item.active,
 a.list-group-item.active:hover,
 a.list-group-item.active:focus {
-    background-color: #000000;
-    border-color: #000000;
+    background-color: #222222;
+    border-color: #222222;
 }
 
 .btn-link {
-    color: #000000;
+    color: #222222;
 }
 
 .btn-link:hover,
@@ -188,14 +188,14 @@ a.list-group-item.active:focus {
 
 .pager li > a:hover,
 .pager li > a:focus {
-    background-color: #000000;
+    background-color: #222222;
 }
 
 
 /* BBOOTS - FLATBOOTS Main Links color */
 
 a {
-    color: #000000;
+    color: #222222;
 }
 
 a:hover,
@@ -204,16 +204,16 @@ a:focus {
 }
 
 blockquote {
-    border-left-color: #000000;
+    border-left-color: #222222;
 }
 
 blockquote.pull-right {
-    border-right-color: #000000;
+    border-right-color: #222222;
 }
 
 .btn-primary {
     color: #ffffff;
-    background-color: #000000;
+    background-color: #222222;
     border: 0;
 }
 
@@ -231,17 +231,17 @@ blockquote.pull-right {
 .dropdown-menu > li > a:focus,
 .dropdown-submenu:hover > a,
 .dropdown-submenu:focus > a {
-    color: #000000;
+    color: #222222;
 }
 
 .dropdown-menu > .active > a,
 .dropdown-menu > .active > a:hover,
 .dropdown-menu > .active > a:focus {
-    color: #000000;
+    color: #222222;
 }
 
 .dropdown-submenu:hover > a:after {
-    border-left-color: #000000;
+    border-left-color: #222222;
 }
 
 
@@ -254,14 +254,14 @@ blockquote.pull-right {
 /* FLATBOOTS Forum Panel Heading */
 
 .panel-forum > .panel-heading {
-    background-color: #000000;
+    background-color: #222222;
 }
 
 
 /* FLATBOOTS Button Top */
 
 .top-flat {
-    background-color: #000000;
+    background-color: #222222;
 }
 
 footer {
@@ -272,12 +272,12 @@ footer {
 /* FLATBOOTS Teaser Header Background color */
 
 .masthead:before {
-    background-color: #000000;
+    background-color: #222222;
 }
 
 
 /* FLATBOOTS Footer Call to Action Background Color */
 
 .mastbottom {
-    background-color: #000000;
+    background-color: #222222;
 }

@@ -1511,7 +1511,8 @@ HEADER STYLE
 -------------------------------------------------------------- */
 
 header {
-    background: none repeat scroll 0 0 black;
+    background: none repeat scroll 0 0 #222222;
+    background-image: linear-gradient(to bottom, #3c3c3c 0, #222 100%);
     border-radius: 4px 4px 0 0;
     display: block;
     padding: 5px 15px 0;
