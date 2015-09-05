@@ -37,11 +37,10 @@
 /* GENERAL ELEMENTS - HEADINGS */
 
 html {
-    background: #999 url("{T_THEME_PATH}/bootstrap/pattern/forum-backdrop.png");
+    background: #EBEBEB;
 }
 
-body
- {
+body {
     background-color: transparent;
     margin: 0;
     font-family: 'Source Sans Pro', 'Arial', 'Helvetica', sans-serif;
@@ -1108,7 +1107,6 @@ Font icon forums
 -------------------------------------------------------------- */
 
 .subheader {
-    background: url("{T_THEME_PATH}/images/pattern2.png") repeat scroll center top #FFFFFF;
     border-top: 4px solid #169FE6;
     height: 80px;
     padding: 0;
@@ -1263,9 +1261,9 @@ Font icon forums
 
 .tabs-nav,
 .crumbs {
-    background: -moz-linear-gradient(center top, #FFFFFF 0%, #F0F0F0 100%) repeat scroll 0 0 transparent;
-    border-bottom: 1px solid #C7C7C7;
-    box-shadow: 0 1px 0 white;
+    background-color: #EFEFEF;
+    border-top: 1px solid #C7C7C7;
+    box-shadow: 0 -1px white;
     height: 32px;
     margin: 0;
 }
@@ -1365,12 +1363,15 @@ li.index-sub {
 
 .sub-breadcrumb {
     background-color: #EFEFEF;
+    border-bottom: 1px solid #C7C7C7;
+    box-shadow: 0 1px white;
+    /*background-color: #EFEFEF;*/
     border-radius: 0 0 0 0;
-    box-shadow: 0 1px rgba(0, 0, 0, 0.1);
+    /*box-shadow: 0 1px rgba(0, 0, 0, 0.1);*/
     font-size: 11px;
     height: 20px;
     list-style: none outside none;
-    margin: 1px 0 25px;
+    margin: 0 0 5px;
     padding: 2px 10px;
 }
 
@@ -1510,10 +1511,10 @@ HEADER STYLE
 -------------------------------------------------------------- */
 
 header {
-    background: none repeat scroll 0 0 white;
+    background: none repeat scroll 0 0 black;
     border-radius: 4px 4px 0 0;
     display: block;
-    padding: 45px 15px 15px;
+    padding: 5px 15px 0;
 }
 
 header .topArea {
@@ -1534,15 +1535,15 @@ header .leftArea {
 
 header .leftArea .logo {
     color: #8C8C8C;
-    font-family: 'BebasNeueRegular', 'Arial', 'Helvetica', sans-serif;
-    font-size: 70px;
+    font-family: 'Roboto Condensed', 'Arial', 'Helvetica', sans-serif;
+    font-size: 30px;
     font-style: normal;
     font-weight: 400;
     line-height: 50px;
     text-decoration: none;
     -webkit-font-smoothing: antialiased;
     /* Fix for webkit rendering, well at least for the time being */
-    text-transform: uppercase;
+    /*text-transform: uppercase;*/
 }
 
 header .leftArea .site-info {
@@ -1560,7 +1561,8 @@ header .leftArea .site-info {
     font-size: 14px;
 }
 
-.logo-transition a::before,
+
+/*.logo-transition a::before,
 .logo-transition a::after {
     display: inline-block;
     opacity: 0;
@@ -1609,7 +1611,7 @@ header .leftArea .site-info {
     -ms-transform-style: preserve-3d;
     -webkit-transform-style: preserve-3d;
     transform-style: preserve-3d;
-}
+}*/
 
 div.logo-transition a:hover,
 div.logo-transition a:focus {
@@ -1644,6 +1646,7 @@ MAIN NAVIGATION
 
 .mainnav > ul {
     float: right;
+    margin-right: 100px;
 }
 
 .mainnav > ul > li {
@@ -1653,7 +1656,7 @@ MAIN NAVIGATION
     filter: inherit;
     display: block;
     width: auto;
-    height: 60px;
+    /*height: 60px;*/
 }
 
 .mainnav > ul > li > a:hover,
@@ -1664,16 +1667,15 @@ MAIN NAVIGATION
 .mainnav > ul > li > a {
     color: #8C8C8C;
     display: block;
-    font-family: 'BebasNeueRegular', 'Arial', 'Helvetica', sans-serif;
+    font-family: 'Roboto Condensed', 'Arial', 'Helvetica', sans-serif;
     -webkit-font-smoothing: antialiased;
     /* Fix for webkit rendering, well at least for the time being */
-    font-size: 28px;
+    font-size: 15px;
     font-style: normal;
     font-weight: 400;
-    line-height: 20px;
-    padding: 10px 5px 25px;
+    /*line-height: 20px;*/
+    padding: 10px 10px 0;
     text-decoration: none;
-    text-transform: uppercase;
 }
 
 .mainnav > ul > li > p {
@@ -1765,7 +1767,7 @@ MAIN NAVIGATION
 
 .submenu {
     position: absolute;
-    top: 65px;
+    top: 50px;
     left: -24px;
     background-color: rgba(255, 255, 255, 0.97);
     -webkit-box-shadow: 0 8px 15px rgba(0, 0, 0, 0.1);
@@ -2232,7 +2234,7 @@ ul.flexnav,
         font-size: 1em;
     }
     header .leftArea .logo {
-        font-size: 66px;
+        font-size: 40px;
     }
     .nav-tabs > li {
         float: none;
